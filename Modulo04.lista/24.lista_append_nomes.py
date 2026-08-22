@@ -1,3 +1,11 @@
+nomes = []
+nomes.append("Maxwell")
+nomes.append("Clara")
+nomes.append("Elisa")
+
+print(f"Lista completa:{nomes}")
+print(f"Quantidade na lista:{len(nomes)}")
+
 # QUESTÃO 24
 #
 # Crie uma lista vazia chamada "nomes".
@@ -15,10 +23,3 @@
 # Lista de nomes: ["Ana", "João", "Maria"]
 # Quantidade de nomes: 3
 
-nomes = []
-nomes.append("Maxwell")
-nomes.append("Clara")
-nomes.append("Elisa")
-
-print(f"Lista completa:{nomes}")
-print(f"Quantidade na lista:{len(nomes)}")

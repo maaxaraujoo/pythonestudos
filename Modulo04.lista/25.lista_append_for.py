@@ -1,3 +1,11 @@
+numeros = []
+
+for cont in range(1, 6):
+    numeros.append(cont)
+print("-----------------------------------------------")
+print(f"Lista completa:{numeros}")
+print(f"Quantidade de numeros na lista:{len(numeros)}")
+print("-----------------------------------------------")
 # QUESTÃO 25
 #
 # Crie uma lista vazia chamada "numeros".
@@ -17,11 +25,4 @@
 # Lista: [1, 2, 3, 4, 5]
 # Quantidade de elementos: 5
 
-numeros = []
 
-for cont in range(1, 6):
-    numeros.append(cont)
-print("-----------------------------------------------")
-print(f"Lista completa:{numeros}")
-print(f"Quantidade de numeros na lista:{len(numeros)}")
-print("-----------------------------------------------")

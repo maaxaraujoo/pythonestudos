@@ -1,14 +1,3 @@
-# QUESTÃO 21
-#
-# Crie uma lista chamada "frutas" contendo 5 frutas diferentes.
-#
-# Depois:
-#
-# 1. Mostre a lista completa;
-# 2. Mostre a primeira fruta da lista;
-# 3. Mostre a terceira fruta da lista;
-# 4. Altere a segunda fruta para outra fruta;
-# 5. Mostre novamente a lista depois da alteração.
 lista = ["Banana","Maça","Uva","Abacaxi","Melancia"]
 print("-------------------------------------------")
 print("Primeira lista:")
@@ -21,3 +10,15 @@ lista[1] = "Melancia"
 lista[4] = "Maça"
 print(f"Lista Alterada:{lista}")
 print("-------------------------------------------")
+
+# QUESTÃO 21
+#
+# Crie uma lista chamada "frutas" contendo 5 frutas diferentes.
+#
+# Depois:
+#
+# 1. Mostre a lista completa;
+# 2. Mostre a primeira fruta da lista;
+# 3. Mostre a terceira fruta da lista;
+# 4. Altere a segunda fruta para outra fruta;
+# 5. Mostre novamente a lista depois da alteração.

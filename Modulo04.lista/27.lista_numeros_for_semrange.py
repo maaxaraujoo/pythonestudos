@@ -1,3 +1,7 @@
+lista = [10, 20, 30, 40, 50]
+for cont in lista:
+    print(cont)
+
 # QUESTÃO 27
 #
 # Crie uma lista com 5 números inteiros.
@@ -15,6 +19,3 @@
 # 40
 # 50
 
-lista = [10, 20, 30, 40, 50]
-for cont in lista:
-    print(cont)

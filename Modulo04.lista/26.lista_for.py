@@ -1,3 +1,6 @@
+lista = ["Maça","Uva","Limão","Melancia","Caju"]
+for cont in range(0, 5):
+    print(lista[cont])
 # QUESTÃO 26
 #
 # Crie uma lista contendo 5 frutas.
@@ -15,6 +18,4 @@
 # Abacaxi
 # Melancia
 
-lista = ["Maça","Uva","Limão","Melancia","Caju"]
-for cont in range(0, 5):
-    print(lista[cont])
+
