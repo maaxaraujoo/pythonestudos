@@ -1,3 +1,15 @@
+quantidade = 0
+numero = int(input("Digite um numero inteiro positivo:"))
+print("-------------------------------------------")
+print("Múltiplos de 3:")
+for cont in range(1, numero + 1):
+    if cont %3 == 0:
+        quantidade = quantidade + 1
+        print(cont)
+print("-------------------------------------------")
+print(f"Número digitado:{numero}")
+print(f"Quantidade de Múltiplos de 3:{quantidade}")
+print("-------------------------------------------")
 # QUESTÃO 19
 #
 # Desenvolva um programa que solicite ao usuário um número inteiro positivo.
@@ -23,15 +35,4 @@
 #
 # Quantidade de múltiplos de 3: 5
 
-quantidade = 0
-numero = int(input("Digite um numero inteiro positivo:"))
-print("-------------------------------------------")
-print("Múltiplos de 3:")
-for cont in range(1, numero + 1):
-    if cont %3 == 0:
-        quantidade = quantidade + 1
-        print(cont)
-print("-------------------------------------------")
-print(f"Número digitado:{numero}")
-print(f"Quantidade de Múltiplos de 3:{quantidade}")
-print("-------------------------------------------")
+
