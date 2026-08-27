@@ -7,9 +7,6 @@ for x in frase_lista:
         frase_lista_4letras.append(x)
 
 print(f"Lista com 4 palavras formada: {frase_lista_4letras}")
-
-
-
 # QUESTÃO 10
 #
 # Crie uma frase contendo várias palavras.
